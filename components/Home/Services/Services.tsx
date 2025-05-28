@@ -38,12 +38,6 @@ md:w-auto"
           </div>
           <div>
             <ServiceCard
-              image="/images/s1.png"
-              title="Custom Softwares Development"
-            />
-          </div>
-          <div>
-            <ServiceCard
               image="/images/s2.png"
               title="Website Design and Development"
             />
