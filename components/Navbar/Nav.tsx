@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { GrTechnology } from "react-icons/gr";
 import { HiBars3BottomRight } from "react-icons/hi2";
+import ThemeToogoler from "../Helper/ThemeToogoler";
 
 type Props = {
   openNav: () => void;
@@ -79,6 +80,7 @@ const Nav = ({ openNav }: Props) => {
           </a>
 
           {/* Theme toggler */}
+          <ThemeToogoler />
           <HiBars3BottomRight
             onClick={openNav}
             className="w-8 h-8 cursor-pointer text-white lg:hidden"
