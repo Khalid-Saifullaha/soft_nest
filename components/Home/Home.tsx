@@ -4,6 +4,8 @@ import Services from "./Services/Services";
 import About from "./About/About";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import Software from "./Software/Software";
+import Footer from "./Footer/Footer";
+import Project from "./Project/Project";
 
 export const Home = () => {
   return (
@@ -13,6 +15,8 @@ export const Home = () => {
       <About />
       <WhyChoose />
       <Software />
+      <Project />
+      <Footer />
     </div>
   );
 };
