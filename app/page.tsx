@@ -7,9 +7,7 @@ import Nav from "@/components/Navbar/Nav";
 const HomePage = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
-  const openNav = () => {
-    setIsNavOpen(true);
-  };
+  const openNav = () => {};
 
   return (
     <div>

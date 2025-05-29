@@ -10,8 +10,8 @@ const font = Rajdhani({
 });
 
 export const metadata: Metadata = {
-  title: "Software Landing Page",
-  description: "Software Landing Page using next.js",
+  title: "SoftNest Landing Page",
+  description: "SoftNest Landing Page using next.js",
   icons: {
     icon: "/fav.png",
   },

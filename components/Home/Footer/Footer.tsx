@@ -9,7 +9,6 @@ import {
   FaEnvelope,
   FaPhoneAlt,
   FaMapMarkerAlt,
-  FaBriefcase,
 } from "react-icons/fa";
 import { GrTechnology } from "react-icons/gr";
 
