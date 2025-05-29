@@ -6,11 +6,7 @@ import { GrTechnology } from "react-icons/gr";
 import { HiBars3BottomRight, HiXMark } from "react-icons/hi2";
 import ThemeToogoler from "../Helper/ThemeToogoler";
 
-type Props = {
-  openNav: () => void;
-};
-
-const Nav = ({ openNav }: Props) => {
+const Nav = () => {
   const [navBg, setNavBg] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
