@@ -6,6 +6,7 @@ import WhyChoose from "./WhyChoose/WhyChoose";
 import Software from "./Software/Software";
 import Footer from "./Footer/Footer";
 import Project from "./Project/Project";
+import Review from "./Review/Review";
 
 export const Home = () => {
   return (
@@ -16,6 +17,7 @@ export const Home = () => {
       <WhyChoose />
       <Software />
       <Project />
+      <Review />
       <Footer />
     </div>
   );
