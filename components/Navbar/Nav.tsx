@@ -33,7 +33,7 @@ const Nav = ({ openNav }: Props) => {
             <GrTechnology className="w-6 text-white" />
           </div>
           <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold">
-            DevTech
+            SoftNest
           </h1>
         </div>
         {/* NavLink */}

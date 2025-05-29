@@ -67,7 +67,7 @@ rounded-full flex-col justify-center"
           </div>
         </div>
         {/* image content */}
-        <div className="">
+        <div data-aos="zoom-out" data-aos-anchor-placement="top-center">
           <Image
             src="/images/wc.png"
             alt="why choose"

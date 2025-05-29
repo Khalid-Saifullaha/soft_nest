@@ -14,13 +14,21 @@ const Software = () => {
       </div>
       {/* card */}
       <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
           <SoftwareCard icon="/images/i1.png" title="Best Marketing software" />
         </div>
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+        >
           <SoftwareCard icon="/images/i2.png" title="Product Sales Software" />
         </div>
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
           <SoftwareCard icon="/images/i3.png" title="Best Marketing Software" />
         </div>
       </div>

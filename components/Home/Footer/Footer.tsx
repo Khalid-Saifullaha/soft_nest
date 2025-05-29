@@ -11,6 +11,7 @@ import {
   FaMapMarkerAlt,
   FaBriefcase,
 } from "react-icons/fa";
+import { GrTechnology } from "react-icons/gr";
 
 interface FooterLink {
   href: string;
@@ -72,8 +73,8 @@ const Footer: React.FC = () => {
           {/* Logo and Description */}
           <div className="md:col-span-2 lg:col-span-1">
             <a href="#" className="flex items-center mb-4">
-              <FaBriefcase className="h-8 w-8 mr-2 text-pink-500" />
-              <span className="text-2xl font-bold text-white">DevTech</span>
+              <GrTechnology className="h-8 w-8 mr-2 text-pink-500" />
+              <span className="text-2xl font-bold text-white">SoftNest</span>
             </a>
             <p className="text-sm leading-relaxed">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque

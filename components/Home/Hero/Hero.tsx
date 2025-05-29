@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="relative bg-blue-950 w-full h-screen flex justify-center flex-col">
       <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
         {/* Text content */}
-        <div>
+        <div data-aos="fade-up">
           <p className="text-sm sm:text-base md:text-xl font-bold text-white">
             The Top Software Development Company
           </p>
@@ -41,8 +41,13 @@ ease-in-out group-hover:text-white"
             </span>
           </a>
         </div>
+
         {/* image */}
-        <div className="mx-auto hidden xl:block">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="150"
+          className="mx-auto hidden xl:block"
+        >
           <Image
             src="/images/hero.png"
             alt="Hero image"
